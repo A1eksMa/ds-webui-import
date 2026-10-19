@@ -5,7 +5,7 @@
 > составе организации [JoinSheets](https://github.com/JoinSheets). Этот репозиторий будет
 > переведён в архивный режим; дальнейшая разработка — в новом месте под JoinSheets.
 
-Опциональный конвертер `.xlsx` → ленивый columnar-формат [`ds-webui`](https://github.com/A1eksMa/ds-webui)
+Опциональный конвертер `.xlsx` → ленивый columnar-формат [`ds-webui`](https://github.com/DS-Pipeline/ds-webui)
 (`ds-webui/docs/contract.md`). Подключается к `ds-webui` как git submodule (каталог `import/`)
 и полностью опционален: без него `ds-webui` работает как сейчас, без единой новой зависимости
 или точки входа в интерфейсе; с ним — на странице «Настройки» появляется кнопка «Импорт».
@@ -38,7 +38,7 @@
 
 ```
 cd ds-webui
-git submodule add https://github.com/A1eksMa/ds-webui-import.git import
+git submodule add https://github.com/DS-Pipeline/ds-webui-import.git import
 ```
 
 `ds-webui/index.html` уже содержит (опциональные, по тому же паттерну, что и `data/base.js`)
